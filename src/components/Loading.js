@@ -1,3 +1,3 @@
 export function Loading() {
-  return <p>loading</p>;
+  return <h1>loading</h1>;
 }
