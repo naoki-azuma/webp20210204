@@ -14,7 +14,7 @@ export function IndecateQ(props) {
     }
 
     return (
-        <div className="content">
+        <div className="content is-syuji">
             <p>{props.count+1}/15</p>
             <div className="box">
                 <h2>{props.kami}</h2>

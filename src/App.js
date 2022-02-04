@@ -54,7 +54,7 @@ function Header() {
       <div className="hero-body">
         <div className="columns">
           <div className="column">
-            <h1 className="title is-2 has-text-black-bis">百人一首道場</h1>
+            <h1 className="title is-2 has-text-black-bis is-syuji">百人一首道場</h1>
           </div>
           <div className="column block has-text-right">
             <AuthButton />
@@ -68,9 +68,13 @@ function Header() {
 function Footer() {
   return (
     <footer className="footer has-background-danger-light">
-      <div className="content">
-        <p className="has-text-centered">
+      <div className="content has-text-centered">
+        <p>
         ©  5420084 東直輝
+        </p>
+        <p>
+          一部のフォントは<a href="https://fonts.google.com/">Googleフォント</a>
+          の<a href="https://fonts.google.com/specimen/Yuji+Syuku?subset=japanese">Yuji Syuku</a>を使用しています。
         </p>
       </div>
     </footer>

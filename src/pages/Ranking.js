@@ -15,7 +15,7 @@ export function RankingPage(props) {
 
   return (
     <div className="content has-text-centered">
-      <h2 className="title is-3">上位者ランキング</h2>
+      <h2 className="title is-3 is-syuji">上位者ランキング</h2>
 
       {
         (() => {

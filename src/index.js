@@ -3,6 +3,8 @@ import { render } from "react-dom";
 import { Auth0Provider } from "@auth0/auth0-react";
 import { App } from "./App.js";
 
+import "./style.css";
+
 
 render(
     <Auth0Provider

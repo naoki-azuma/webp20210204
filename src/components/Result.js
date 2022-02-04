@@ -40,20 +40,20 @@ export function Result(props) {
 
     return (
         <div className="content">
-            <div className="has-text-centered">
-                <h1 className="is-1">Finish!!</h1>
+            <div className="has-text-centered is-syuji">
+                <h1 className="is-1">終了!!</h1>
                 <div className="box">
-                    <p>your score</p>
+                    <p>あなたの得点</p>
                     <h2>{props.correctCount}/15</h2>
                 </div>
                 <div className="box">
-                    <p>your time</p>
+                    <p>あなたの時間</p>
                     <h2>{changeStr(hour)} : {changeStr(minite)} : {changeStr(second)}</h2>
                 </div>
             </div>
             <div className="content has-text-right">
                 <Link className="button is-danger" to="/ranking">
-                    ランキングへ
+                    ランキング
                 </Link>
             </div>
         </div>
